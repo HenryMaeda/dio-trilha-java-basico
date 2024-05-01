@@ -11,10 +11,10 @@ public class ContaTerminal {
         String nomeCliente , agencia , sobrenomeCliente , nomeCompleto ; 
         float saldo ; 
         
-            System.out.println("Digite o seu numero: ");
+            System.out.println("Digite o seu número: ");
                 numeroConta = scanner.nextInt() ; 
 
-            System.out.println("Digite o numero da sua agencia no formato XXX-X: ") ; 
+            System.out.println("Digite o número da sua agência no formato XXX-X: ") ; 
                 agencia = scanner.next() ; 
 
             System.out.println("Escreva seu nome: ") ; 
@@ -23,7 +23,7 @@ public class ContaTerminal {
             System.out.println("Escreva seu sobrenome: ") ; 
                 sobrenomeCliente = scanner.next() ; 
 
-            System.out.println("Digite o saldo que voce deseja inserir na nova conta: ") ; 
+            System.out.println("Digite o saldo que você deseja inserir na nova conta: ") ; 
                 saldo = scanner.nextFloat() ; 
 
                 nomeCompleto = nomeCliente + " " + sobrenomeCliente ; 
